@@ -6,7 +6,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 
 
-const Navbar = () => {
+const Nav = () => {
     return (
        <nav className="flex items-center justify-between py-6">
         {/* logo */}
@@ -45,4 +45,4 @@ const Navbar = () => {
        </nav>
     );
 };
-export default Navbar;
+export default Nav;

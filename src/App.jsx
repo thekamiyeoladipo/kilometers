@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/navbar";
+import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
       </div>
 
       <div className="container mx-auto px-8">
-      <Navbar />
+      <Nav />
       <Hero />
       </div>
     </div>
